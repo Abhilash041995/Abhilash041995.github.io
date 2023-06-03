@@ -709,7 +709,8 @@ height: 100%;
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: #8DC73F;
+		/* background-color: #8DC73F; */
+		background-color: #fff;
 		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
 	}
 

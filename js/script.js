@@ -13,12 +13,12 @@ function scrollFunction() {
 		document.body.scrollTop > 30 ||
 		(document.documentElement.scrollTop > 30) & (intViewportWidth > 991)
 	) {
-		document.getElementById("navbar").classList.add("top-nav-collapse");
+		document.getElementById("navbar").classList.add("top-nav-collapse_");
 	} else if (
 		document.body.scrollTop < 30 ||
 		(document.documentElement.scrollTop < 30) & (intViewportWidth > 991)
 	) {
-		document.getElementById("navbar").classList.remove("top-nav-collapse");
+		document.getElementById("navbar").classList.remove("top-nav-collapse_");
 	}
 }
 
